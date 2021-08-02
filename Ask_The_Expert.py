@@ -27,7 +27,7 @@ fan_level = st.radio("I am a ______", options)
 game_pick = st.radio("Who thinks the _____ are gonna win", ["Bucks", "Suns"])
 certainty = st.slider("With __% certainty", 50, 100)
 Quarter = st.slider("What Quarter is it?", 1, 4)
-Minute = st.slider("What Minute is it?", 0, 12)
+Minute = st.slider("What Minute is it?", 0, 11)
 Point_Differential = st.slider("What is the point differential for the Bucks?", -20, 20)
 key = str(Quarter) + str(Minute) + str(Point_Differential)
 if fan_level == "Athelete, NBA Expert":
