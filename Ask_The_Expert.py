@@ -31,14 +31,14 @@ Minute = st.slider("What Minute is it?", 0, 12)
 Point_Differential = st.slider("What is the point differential for the Bucks?", -20, 20)
 key = str(Quarter) + str(Minute) + str(Point_Differential)
 if fan_level == "Athelete, NBA Expert":
-    pick_addition = (.01 *certainty * 27) // 1
-    pick_not = 27 - pick_addition
+    pick_addition = (.01 *certainty * 28) // 1
+    pick_not = 28 - pick_addition
 if fan_level == "NBA fan":
-    pick_addition = (.01*certainty * 9) // 1
-    pick_not = 9 - pick_addition
+    pick_addition = (.01*certainty * 8) // 1
+    pick_not = 8 - pick_addition
 if fan_level == "Casual Viewer":
-    pick_addition = (.01*certainty * 3) // 1
-    pick_not = 3 - pick_addition
+    pick_addition = (.01*certainty * 4) // 1
+    pick_not = 4 - pick_addition
 
 if fan_level == "First Time Watcher":
     pick_addition = (.01* certainty * 2) // 1
