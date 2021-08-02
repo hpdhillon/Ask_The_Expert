@@ -63,7 +63,6 @@ else:
         Wins = Wins + 1
         Losses = Losses + 1
     VariantA = beta(Wins + left, Losses + right)
-st.write(left, right)
 x = np.linspace(VariantA.ppf(0.01),
                 VariantA.ppf(0.99), 100)
 figure = plt.figure()
