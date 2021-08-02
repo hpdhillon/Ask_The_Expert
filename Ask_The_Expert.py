@@ -56,9 +56,9 @@ if Point_Differential == 0:
     Losses = 50
     VariantA = beta(Wins + left, Losses + right)
 else:
-    Wins = app_data[app_data["key"] == key]
-    Losses = Wins["Losses"]
-    Wins = Wins["Wins"]
+    df = app_data[app_data["key"] == key]
+    Wins = int(df["prob_win"] * 100)
+    Losses = 100 - Wins
     if Quarter < 4:
         Wins = Wins + 1
         Losses = Losses + 1
