@@ -17,7 +17,7 @@ st.sidebar.info(
 st.sidebar.title("Credits")
 st.sidebar.info(
     "A big thanks to:  \n"
-    "Albert Kuo for creating nba_comeback, which is the inspiration for this app & the creators of nba_api \n"
+    "Albert Kuo for creating nba_comeback which is the inspiration for this app & the creators of nba_api \n"
 )
 #"Big thanks to Albert Kuo who's app this is built off of.")
 
